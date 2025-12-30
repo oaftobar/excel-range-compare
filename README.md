@@ -32,13 +32,13 @@ pip install -r requirements.txt
 Interactive:
 
 ```bash
-python compare_ranges.py
+python Excel_Range_Compare.py
 ```
 
 Non-interactive (example):
 
 ```bash
-python compare_ranges.py --input "Employee Sales.xlsx" --output "Employee Sales NEW.xlsx" --sheet1 "Dataset 1" --sheet2 "Dataset 2" --range "A1:E21"
+python Excel_Range_Compare.py --input "Employee Sales.xlsx" --output "Employee Sales NEW.xlsx" --sheet1 "Dataset 1" --sheet2 "Dataset 2" --range "A1:E21"
 ```
 
 ## Notes / assumptions
